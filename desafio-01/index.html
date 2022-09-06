@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <title>Desafio | 01</title>
+
+  <style>
+    body {
+      background: #2222FE;
+      text-align: center;
+      padding-inline: 180px;
+    }
+
+    h1 {
+      font-size: 100px;
+      text-transform: uppercase;
+      color: white;
+      text-shadow: 1px 2px 2px rgba(0, 0, 0, .4);
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .container {
+      background: whitesmoke;
+      border-radius: 20px;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, .4);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 'A B';
+    }
+
+    .col-a {
+      grid-area: A;
+    }
+
+    .col-b {
+      grid-area: B;
+    }
+
+    img {
+      max-width: 400px;
+      max-height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hello World!</h1>
+  <div class="container">
+    <div class="col-a">
+      <img src="assets/logo-html5.png" alt="Logo do HTML 5">
+    </div>
+    <div class="col-b">
+      <img src="assets/logo-css3.png" alt="Logo do CSS 3">
+    </div>
+  </div>
+</body>
+
+</html>
