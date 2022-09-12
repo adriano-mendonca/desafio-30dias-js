@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::root {
+  font-size: 62.5%;
+}
+body {
+  padding: 4rem;
+  text-align: center;
+  height: auto;
+  background: url('assets/bg-body.webp');
+}
+
+div {
+  font-family: 'Rubik Wet Paint', cursive;
+  color: red;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 9rem;
+  
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.erro1 {
+  transform: rotate(-20deg);
+}
+
+.erro3 {
+  transform: rotate(20deg);
+}
+
+.erro1, .erro2, .erro3 {
+  text-shadow: 2px 20px 2px rgba(0,0,0,.4);
+}
+
+p {
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  display: inline-block;
+}
